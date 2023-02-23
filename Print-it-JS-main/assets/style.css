@@ -1,3 +1,4 @@
+
 /* variables declaration */
 :root {
 	--primary-color: #3396C0;
@@ -295,3 +296,7 @@ footer div {
 		flex: 2;
 	}
 }
+
+/** Carousel
+
+.carousel
