@@ -78,7 +78,6 @@ function dotSelect(item) {
 
 function returnFirst(){
 	if (numIndex >= numberOfSlide -1) {
-		console.log("vous allez revenir à l'index 0");
 		numIndex = -1;
 		count = -1;
 	}
@@ -88,7 +87,6 @@ arrowRight.addEventListener("click", returnFirst);
 
 function returnLast(){
 	if (numIndex <= 0) {
-		console.log("vous allez revenir à l'index 3");
 		numIndex = numberOfSlide;
 		count = numberOfSlide;
 	}
